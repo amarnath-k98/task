@@ -6,6 +6,12 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 body {
     margin-top: 20px;
 }
@@ -13,11 +19,12 @@ body {
   font-family: "Volkhov", serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 24px;
+  
 }
 .logo {
     gap: 0.5rem;
     color: #222222;
+    font-size: 24px;
 }
 .flex-box {
   display: flex;
@@ -57,6 +64,69 @@ button {
 .bg-btn {
     width: 160px;
     height: 50px;
+    color: white;
+    background-color: #fd8d3a;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.content-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content-sec {
+    display: flex;
+    flex-direction: column;
+    width: 521px;
+    height: 486px;
+    gap: 48px;
+}
+.content-sec1 {
+    color: #fd8d3a;
+}
+.content-one { 
+    color: #222222;
+    font-size: 64px;
+    height: 210px;
+    width: 521px;
+}
+.content-two {
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    width: 497px;
+    height: 120px;
+    line-height: 40px;
+}
+.discover-btn {
+    width: 178px;
+    height: 60px;
+    border: 1px solid #fd8d3a;
+    color: #fd8d3a;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+content-img {
+    width: 785px;
+    height: 585px;
+}
+.search-bar {
+    width: 841px;
+    height: 124px;
+    display: flex;
+    padding: 20px 20px 20px 20px;
+}
+.search-content {
+    width: 793px;
+    height: 60px;
+    padding: 20px;
+}
+.explore-btn {
+    width: 165px;
+    height: 60px;
     color: white;
     background-color: #fd8d3a;
     border-radius: 5px;
