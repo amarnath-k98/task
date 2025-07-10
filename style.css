@@ -11,9 +11,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 1920px;
+    height: 999px;
+    border: 1px solid black;
 }
 body {
-    margin-top: 20px;
+    margin: 0;
 }
 .volkhov-bold {
   font-family: "Volkhov", serif;
@@ -131,4 +134,22 @@ content-img {
     background-color: #fd8d3a;
     border-radius: 5px;
     font-weight: 600;
+}
+.search-txt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+}
+.st-sub {
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 300;
 }
