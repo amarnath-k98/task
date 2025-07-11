@@ -229,7 +229,7 @@ content-img {
     font-size: 48px;
 }
 .e-d-c-2 {
-     color: #fd8d3a;
+    color: #fd8d3a;
 }
 .e-d-c-3 {
     width: 433px;
@@ -282,4 +282,107 @@ content-img {
     background-color: #FFE7DB;
     border-radius: 5px;
     font-weight: 600;
+}
+.e-d-3 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 104px;
+    height: 40px;
+    position: relative;
+    left: 50%;
+}
+.btn-left {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+}
+.btn-right {
+    width: 40px;
+    height: 40px;
+    background-color: #fd8d3a;
+    color: #ffffff;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+}
+.main-three {
+    width: 1920px;
+    height: 893px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.v-1 {
+    display: flex;
+    gap: 20px;
+}
+.v-1-c {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.v-1-s1 {
+    color: #222222;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+.v-1-s2 {
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 200;
+}
+.v-2 {
+    /* width: 100%; */
+    gap: 32px;
+    position: relative;
+    padding: 20px;
+    left: 30%;
+}
+.card-2 {
+    width: 370px;
+    height: 447px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    object-fit: cover;
+}
+.v-c-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vp-2 {
+    display: flex;
+    align-items: center;
+}
+.v-c-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    position: relative;
+
+    /* align-items: left auto; */
+    padding: 0;
+}
+.vp-rating {
+    position: relative;
+    right: 0;
 }
