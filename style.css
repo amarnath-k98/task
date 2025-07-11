@@ -152,3 +152,134 @@ content-img {
     font-size: 16px;
     font-weight: 300;
 }
+.main-one {
+    width: 1920px;
+    height: 724px;
+    padding-left: 300px;
+    padding-right: 250px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    /* padding: 180px; */
+    background-color: #F7F8FC;
+}
+.one-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.t-c-0 {
+    display: flex;
+    flex-direction: column;
+}
+.t-c {
+    width: 521px;
+    height: 54px;
+    color: #222222;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+}
+.t-c-1 {
+    color: #fd8d3a;
+}
+.t-c-2 {
+    width: 482px;
+    height: 64px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 200;
+}
+.ele-logo {
+    width: 179.9px;
+    height: 130.73px;
+}
+.two-content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.main-two {
+    width: 1920px;
+    height: 960px;
+    background-color: #FEFCFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.e-d-1 {
+    width: 675px;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 30%;
+}
+.e-d-c-1 {
+    color: #222222;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+.e-d-c-2 {
+     color: #fd8d3a;
+}
+.e-d-c-3 {
+    width: 433px;
+    height: 64px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 200;
+}
+.e-d-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    width: 1170px;
+    height: 426px;
+}
+.card-1{
+    width: 270px;
+    height: 426px;
+    background-color: #FEFCFB;
+}
+.c-c-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price {
+    display: flex;
+    width: 238px;
+    height: 28px;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-c-2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    align-items: left auto;
+}
+.c-c-3 {
+    position: relative;
+    right: 0;
+}
+.discounted-price {
+    width: 52px;
+    height: 28px;
+    color: #fd8d3a;
+    background-color: #FFE7DB;
+    border-radius: 5px;
+    font-weight: 600;
+}
