@@ -483,7 +483,6 @@ content-img {
 .main-six {
     width: 1920px;
     height: 898px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
