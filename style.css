@@ -319,11 +319,11 @@ content-img {
 .main-three {
     width: 1920px;
     height: 893px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 .v-1 {
     display: flex;
@@ -349,19 +349,25 @@ content-img {
     font-weight: 200;
 }
 .v-2 {
-    /* width: 100%; */
-    gap: 32px;
+    width: 112px;
+    height: 40px;
+    gap: 20px;
+    display: flex;
     position: relative;
-    padding: 20px;
-    left: 30%;
+    padding: 0;
+    left: 27%;
+}
+.v-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
 .card-2 {
     width: 370px;
     height: 447px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    object-fit: cover;
+    justify-content: center;
 }
 .v-c-1 {
     display: flex;
@@ -374,15 +380,186 @@ content-img {
 }
 .v-c-2 {
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: space-between;
     gap: 5px;
-    position: relative;
-
-    /* align-items: left auto; */
     padding: 0;
 }
-.vp-rating {
+.rome-img {
+    width: 369px; 
+    height: 327px;
     position: relative;
-    right: 0;
+    right: 22%;     
 }
+.main-four {
+    width: 1920px;
+    height: 596px;
+    background-color: #F7F8FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-4-0 {
+    width: 1103px;
+    height: 356px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.m-4-01 {
+    width: 394px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.v-2-1 {
+    width: 112px;
+    height: 40px;
+    gap: 20px;
+    display: flex;
+    position: relative;
+    padding: 0;
+    right: 100%;
+    gap: 20px;
+}
+.m-4-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    height: 356px;
+}
+.m-4-11 {
+    position: relative;
+    left: 10%;
+    top: 50px;
+    /* align-content: center;
+    justify-content: center; */
+}
+.m-4-12 {
+    position: relative;
+    left: 20%;
+    bottom: 90px;
+    
+}
+.m-4-2 {
+    position: relative;
+    left: 0;
+    bottom: 100px;
+}
+.main-five {
+    width: 1920px;
+    height: 805px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEFCFB;
+    gap: 30px;
+}
+.m-5-0 {
+    color: #222222;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+.m-5-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card-3 {
+    width: 270px;
+    height: 388px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 200;
+}
+.main-six {
+    width: 1920px;
+    height: 898px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mail {
+    width: 1170.25px;
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    background-color: #fd8d3a;
+    color: #ffffff;
+    gap: 30px;
+    border-radius: 5px;
+    background-image: url(./asset/Sub\ Element.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.mail-con {
+    width: 708px;
+    height: 124px;
+    color: white;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    justify-content: center;
+    align-content: center;
+}
+.mail-con-1 {
+    position: relative;
+    left: 30%;
+}
+.mail-box {
+    width: 674px;
+    height: 68px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.email-input {
+    width: 120px;
+    height: 25px;
+    border: none;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+}
+.sub-btn {
+    width: 132px;
+    height: 50px;
+    color: white;
+    background-color: #fd8d3a;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.m-6-img {
+    width: 1170.25px;
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./asset/Sub\ Element\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: relative;
+    bottom: 400px;
+}
+
+
