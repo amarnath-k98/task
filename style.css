@@ -561,5 +561,41 @@ content-img {
     position: relative;
     bottom: 400px;
 }
-
-
+.m-6-0 {
+    width: 1170.25px;
+    height: 416px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+.m-6-01 {
+    width: 254px;
+    height: 176px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.m-6-02 {
+    width: 598px;
+    height: 210px;
+    border: 1px solid black;
+}
+.m-6-01-content {
+    color: #666666;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+}
+.logo-footer {
+    position: relative;
+    right: 130px;
+}
+.m-6-01-icon {
+    width: 176px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
